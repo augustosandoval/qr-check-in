@@ -21,7 +21,7 @@ const Index = () => {
       <div className="container mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
-            Attendance System
+            GAEL - Attendance System
           </h1>
           <p className="text-muted-foreground">
             Scan QR codes for quick student check-in
@@ -38,4 +38,5 @@ const Index = () => {
   );
 };
 
+// This is the key fix - make sure you have a default export
 export default Index;
