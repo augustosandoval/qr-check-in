@@ -117,7 +117,7 @@ export const StudentInfo = ({ qrData, onBack }: StudentInfoProps) => {
           status: "active",
           attendanceId: result.attendance_id,
           lastAttendance: new Date().toISOString(), 
-          profileImage: `https://dttczenkpmtejtugfivr.supabase.co/storage/v1/object/public/profiles/student/${parsedQRData.studentId}.png`,
+          profileImage: `https://dttczenkpmtejtugfivr.supabase.co/storage/v1/object/public/profiles/student/${parsedQRData.studentId}.jpg`,
         };
         
         setStudent(studentData);
